@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cupd=$(xbps-install -un | grep -c '^[0-9]')
+echo "$cupd updates "
